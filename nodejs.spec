@@ -167,6 +167,7 @@ export CXXFLAGS='%{optflags} -g \
                  -D_LARGEFILE_SOURCE \
                  -D_FILE_OFFSET_BITS=64 \
                  -DZLIB_CONST \
+                 -D__STDC_FORMAT_MACROS \
                  -fno-delete-null-pointer-checks'
 
 # Explicit new lines in C(XX)FLAGS can break naive build scripts
